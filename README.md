@@ -14,7 +14,14 @@
 ## 使用
 
 ### Gradle:
-implementation 'com.github.chenyunecjtu:MarqueeViewLibrary:1.2.0'
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+### Gradle:
+implementation 'com.github.chenyunecjtu:MarqueeViewLibrary:1.1.4'
 
 ### 属性
 MarqueeView属性
